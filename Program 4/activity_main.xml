@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="ilahia college of engineering and technology"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:hint="username"
+        android:minHeight="48dp"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/phNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:hint="phone number"
+        android:minHeight="48dp"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phNo"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="30dp"
+        android:hint="email"
+        android:minHeight="48dp"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:hint="password"
+        android:minHeight="48dp"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/ConPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:hint="confirm password"
+        android:minHeight="48dp"
+        android:textAlignment="textStart" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ConPass"
+        android:id="@+id/btn1"
+        android:layout_marginTop="30dp"
+        android:text="submit"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
